@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "X-Console translator",
+  "version": "1.0",
+  "description": "Translates messages in the X-Console Discord.",
+  "icons": {
+    "128": "xconsoles-128.jpg",
+    "16": "xconsoles-16.jpg"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "https://discord.com/channels/*",
+    "tabs",
+    "contextMenus"
+  ]
+}
