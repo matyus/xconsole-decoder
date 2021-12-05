@@ -4,8 +4,8 @@
   "version": "1.0",
   "description": "Translates messages in the X-Console Discord.",
   "icons": {
-    "128": "xconsoles-128.jpg",
-    "16": "xconsoles-16.jpg"
+    "128": "xconsoles-128.png",
+    "16": "xconsoles-16.png"
   },
   "background": {
     "persistent": false,
