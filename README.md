@@ -26,3 +26,9 @@ Chrome, Firefox, etc..
 1. Right click on it, then select `X-Console translator > Encode selected text`
 1. See alert() dialog.
 
+## Test suite
+
+```js
+npm install
+npm run test
+```
