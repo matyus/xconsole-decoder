@@ -1,17 +1,3 @@
-const contextMenu = chrome.contextMenus;
-
-contextMenu.create({
-  id: 'decode',
-  title: 'Decode selected text',
-  contexts: ['all']
-});
-
-contextMenu.create({
-  id: 'encode',
-  title: 'Encode selected text',
-  contexts: ['all']
-});
-
 // Credit where it's due, MORSE CODE mappings:
 // https://stackoverflow.com/questions/43726344/js-decoding-morse-code
 const DECODE = {
@@ -112,10 +98,4 @@ function encode(selectionText) {
     .join('/');
 }
 
-contextMenu.onClicked.addListener(function({ menuItemId, selectionText }, page) {
-  const translated = menuItemId === "encode" ? encode(selectionText) : decode(selectionText);
-
-  chrome.tabs.executeScript({
-    code: `alert('${translated}')`
-  });
-});
+if (typeof module === 'object') module.exports = { decode, encode };

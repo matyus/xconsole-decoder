@@ -9,7 +9,10 @@
   },
   "background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "scripts": [
+      "translator.js",
+      "background.js"
+    ]
   },
   "permissions": [
     "https://discord.com/channels/*",

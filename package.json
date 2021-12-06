@@ -1,0 +1,22 @@
+{
+  "name": "x-console-message-translator",
+  "version": "1.0.0",
+  "description": "Encode and decode message in Morse code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyus/xconsole-decoder.git"
+  },
+  "author": "di0xgenes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matyus/xconsole-decoder/issues"
+  },
+  "homepage": "https://github.com/matyus/xconsole-decoder#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
